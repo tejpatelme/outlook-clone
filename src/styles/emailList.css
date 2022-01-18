@@ -1,0 +1,17 @@
+.email-list-container {
+  background: var(--background-color);
+  padding: 2.5rem;
+  display: flex;
+  align-self: flex-start;
+}
+
+.email-list {
+  padding: 0;
+  margin: none;
+  list-style: none;
+  width: 100%;
+}
+
+.email-list > * + * {
+  margin-top: 1rem;
+}
